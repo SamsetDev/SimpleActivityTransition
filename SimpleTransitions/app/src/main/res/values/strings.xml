@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleTransitions</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fname">First Name : Sam</string>
+    <string name="lname">Last Name : Set</string>
+    <string name="address">Address : New Delhi</string>
+    <string name="contact">Contact : 9811000000</string>
+
+    <string name="sfname">Sam</string>
+    <string name="slname">Set</string>
+    <string name="saddress">New Delhi</string>
+    <string name="scontact">9811000000</string>
+
+
+    <string name="first_transition">transition:FIRST_NAME</string>
+    <string name="second_transition">transition:SECOND_NAME</string>
+    <string name="images_transition">transition:IMG</string>
+
+</resources>

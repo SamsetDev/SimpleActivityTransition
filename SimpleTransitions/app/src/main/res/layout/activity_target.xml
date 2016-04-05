@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.samset.simpleanimation.activities.MainActivity2">
+
+    <LinearLayout
+        android:padding="5pt"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="First Name : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+        />
+
+        <TextView
+            android:text="@string/sfname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:transitionName="@string/first_transition"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5pt"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="Last Name : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:transitionName="sam"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:text="@string/slname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+        </LinearLayout>
+    <LinearLayout
+        android:padding="5pt"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="Adress : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:transitionName="sam"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:text="@string/saddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:transitionName="@string/second_transition"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5pt"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="Contact : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:transitionName="sam"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+
+        <TextView
+            android:text="@string/scontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:transitionName="hello"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+    <ImageView
+        android:transitionName="@string/images_transition"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>
